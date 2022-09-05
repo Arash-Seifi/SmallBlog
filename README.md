@@ -1,0 +1,2 @@
+# SmallBlog
+A simple blog
