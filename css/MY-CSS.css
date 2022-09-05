@@ -1,0 +1,169 @@
+:root {
+  --firstColor: #0c5e58;
+  --secondColor: #181716;
+  --thirdColor: #e89215;
+  --firstFont: "Sen", sans-serif;
+  --secondFont: "Carter One", cursive;
+  --firstFontSize: 1.6vw;
+  --forthColor: #f5f2ef;
+}
+body {
+  overflow-x: hidden
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    min-width: 80% !important;
+  }
+}
+.boldText {
+  font-weight: bold !important;
+}
+.navbar {
+  font-family: var(--secondFont);
+}
+.navbarItemHeader {
+  cursor: pointer;
+  font-size: var(--firstFontSize);
+}
+.navbarItem {
+  transition: 1s linear;
+  cursor: pointer;
+  font-size: var(--firstFontSize);
+}
+.navbarItem:hover {
+  color: var(--thirdColor);
+}
+.footerContainer {
+  background-color: var(--secondColor);
+}
+.footerContainer div {
+  text-align: center;
+  font-family: var(--firstFont);
+}
+.footerTitle {
+  font-size: 1.5rem;
+  color: white;
+}
+.footerArticle {
+  color: var(--thirdColor);
+  font-size: 1.2rem;
+}
+.footerTopContainer {
+  background-color: var(--firstColor);
+}
+.footerTopLeft {
+  color: white;
+  font-size: 4.5vw;
+  font-family: var(--secondFont);
+}
+.footerTopRight {
+  color: white;
+  font-family: var(--firstFont);
+  font-size: 1.5rem;
+}
+.footerTopRightLink {
+  width: 200px;
+  height: 25px;
+  color: var(--thirdColor);
+  font-size: 1.3rem;
+  overflow: hidden;
+  position: relative;
+  font-family: var(--secondFont);
+}
+.footerTopRightLinkEffect {
+  position: relative;
+  left: -270px;
+  width: 180px;
+  height: 5px;
+  background-color: var(--thirdColor);
+  bottom: 0;
+  margin-left: 520px;
+  transition: left 300ms linear, margin-left 300ms ease-in-out;
+}
+.footerTopRightLink:hover .footerTopRightLinkEffect {
+  left: 0;
+  margin-left: 0;
+  transition: left 300ms ease-out;
+}
+#mainBody {
+  transition: 1s linear;
+}
+.navBarWidth {
+  width: 300px !important;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #818181;
+  font-family: var(--firstFont);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.searchBar {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.searchBar input {
+  width: 40%;
+  color: var(--firstColor);
+  font-family: var(--secondFont);
+  transition: 0.5s;
+  border: 1px solid white;
+  border-radius:3px;
+  height: 30px;
+}
+.searchBar input:focus {
+  width: 80%;
+  border: 1px solid white;
+  border-radius:3px;
+  height: 30px;
+}
+.searchIcon button i {
+  color: white;
+}
+.searchIcon button {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  border: none;
+}
+.tagHeader {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: var(--secondFont);
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}

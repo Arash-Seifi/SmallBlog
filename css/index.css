@@ -1,0 +1,40 @@
+.itemHeader {
+    text-align: center;
+    color:black;
+    font-size: 2.5rem;
+    font-family: var(--secondFont);
+}
+.itemContainer {
+    background-color:var(--forthColor)
+}
+.itemHeaderName {
+    text-align: center;
+    color: var(--firstColor);
+    font-family: var(--secondFont);
+}
+.itemName {
+    text-align: center;
+    color: black;
+    font-family: var(--firstFont);
+    font-size: 1.8rem;
+}
+.heroBoxHeaderName {
+    font-family: var(--secondFont);
+    text-align: center;
+    color: var(--firstColor);
+    font-size: 1.5rem;
+}
+.heroBoxName {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    font-family: var(--firstFont);
+}
+.summeryContent {
+    font-family: var(--firstFont);
+    font-size: 1rem;
+}
+.rightContent {
+    background-color: var(--forthColor);
+    border-radius: 10px;
+}

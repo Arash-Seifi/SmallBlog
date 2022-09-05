@@ -1,0 +1,161 @@
+* {
+  scroll-behavior: smooth;
+}
+.dateAndAbout {
+  font-family: var(--firstFont);
+  font-size: 1.4rem;
+}
+.betweenSize {
+  font-size: 2rem !important;
+  color: var(--firstColor);
+}
+.navbarItemHeader {
+  padding: 0 !important;
+  padding-top: 30px !important;
+}
+.aboutName {
+  color: var(--firstColor);
+}
+.dateName {
+  color: grey;
+}
+.titleName {
+  color: black;
+  font-family: var(--secondFont);
+  font-size: 3.3rem;
+}
+.TagsRow div {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: var(--forthColor);
+  font-family: var(--firstFont);
+  font-size: 1.5rem;
+  padding: 10px;
+  color: var(--firstColor);
+  border-radius: 20px;
+}
+.imageContainer {
+  width: 100%;
+  max-height: 700px;
+  overflow: hidden;
+}
+.feedbackList {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  font-family: var(--secondFont);
+  font-size: 1.5rem;
+}
+.feedbackList li {
+  transition: 0.7s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.likeClass:hover {
+  color: red;
+}
+.shareClass:hover {
+  color: blue;
+}
+.toTheTopClas:hover {
+  color: green;
+}
+.summeryCont {
+    font-size: 1.8rem;
+    font-family: var(--firstFont);
+}
+.feedbackCont {
+  position: sticky !important;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  top: 20px;
+}
+.Scontainer {
+  display: flex;
+  margin-top: 50PX;
+}
+.itemHeader {
+    text-align: center;
+    color:black;
+    font-size: 2.5rem;
+    font-family: var(--secondFont);
+}
+.itemContainer {
+    background-color:var(--forthColor)
+}
+.itemHeaderName {
+    text-align: center;
+    color: var(--firstColor);
+    font-family: var(--secondFont);
+}
+.itemName {
+    text-align: center;
+    color: black;
+    font-family: var(--firstFont);
+    font-size: 1.8rem;
+}
+.imageContainerMainContent {
+    max-height: 450px;
+    overflow: hidden;
+}
+.mainContentRow {
+    margin-top:100px
+}
+.mainContentHeader {
+    font-family: var(--secondFont);
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+.mainContentText {
+    color: rgb(37, 37, 37);
+    font-family: var(--firstFont);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.profileImageContainer {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid var(--thirdColor);
+    background-color:red;
+    overflow: hidden;
+}
+.profileName {
+    color: black;
+    font-family: var(--secondFont);
+    font-size: 1.6rem;
+}
+.profileAbout {
+    font-size: 1.3rem;
+    font-family: var(--firstFont);
+    color: rgb(66, 66, 66);
+}
+.socialMedia {
+    margin-top: 20px;
+    color: var(--thirdColor);
+    font-size: 2rem;
+}
+.totalLikes {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  color: var(--firstColor);
+  font-family: var(--firstFont);
+  font-size: 1.5rem;
+  border-bottom: 3px solid var(--firstColor);
+}
+.fbContainer2 {
+  transition: 0.7s;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: var(--firstFont);
+}
+.fbContainer2 span{
+  text-align: center;
+  transition: 0.5s;
+ margin-right: 30px;
+}
